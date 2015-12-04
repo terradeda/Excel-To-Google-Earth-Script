@@ -1,4 +1,7 @@
-<b>Excel to KML VBA Script</b>
+#Excel to KML VBA Script
+
+<b>Description</b>
+
 This repository contains a VBA script and userform which takes data from an excel spreadsheet and generates a .KML file represents the data selected in the spreadsheet ontop of a map. This script take GPS coordinates ( in lat/long, decimal degree format) as an input for identifying the location of each point you are interested in. It also allows the user to select three additional attributes to use: Name, Colour and description. Firstly, the name input allows the user to select a column of data within the spreadsheet to be used as the name of each placemark the KML file will generate. The colour input is possibly the most usefull part of this script. Much like the name field, the colour field allows the user to specify a column to be used as an indicator for the placemarks colour. This field must be numeric (ie. integer or double or floating point) and the script takes these numbers to calculate bin sizeing and automatically assigning a colour value to each placemark. The third input is the description field. Again, this allows the user to specify a column containing what will be used as the placemarks description.
 
 <b>Background</b>
